@@ -4,7 +4,7 @@ app.use(express.json())
 import cookieParser from "cookie-parser"
 app.use(cookieParser());
 import dotenv from "dotenv";
-import {path} from "path"
+import path from "path"
 dotenv.config()
 app.use(cors({
     origin: "http://localhost:5173",
